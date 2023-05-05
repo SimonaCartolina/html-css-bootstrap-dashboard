@@ -15,10 +15,8 @@ aside li{
 }
 main{
     background-color: #1B72E8;
-    color:black;
     width: calc(100% - 130px);
 }
 .fa-plus{
     border:1px solid white;
-
 }

@@ -18,6 +18,8 @@
 </head>
 <body>
 
+    <header>
+
     <nav class="navbar bg-light">
         <div class="container-fluid">
             <div class="row d-flex">
@@ -52,6 +54,7 @@
             </div>
         </div>
     </nav>
+    </header>
 
     <div class="my-container d-flex">
 
@@ -83,45 +86,110 @@
     
         <main>
             <div class="my-container text-white my-4 mx-4">
+
                     <span class="mx-2 fw-bold">Nuovo Studente</span>
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                             <i class="fa-solid fa-plus p-2 rounded-2" style="color: #ffffff;"></i>
                     </button>
-                          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                             <div class="offcanvas-header">
-                              <h7 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Inserisci un nuovo studente</h7>
-                              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                <h7 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Inserisci un nuovo studente</h7>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                  </a>
-                                  <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                      <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                  </ul>
-                                </li>
-                              </ul>
-                              <form class="d-flex mt-3" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-success" type="submit">Search</button>
-                              </form>
+
+                                <form class="row g-3">
+                                    <!--nome-->
+                                    <div class="col-md-6">
+                                      <label for="inputNome" class="form-label">Nome</label>
+                                      <input type="text" class="form-control" id="inputNome">
+                                    </div>
+                                    <!--cognome-->
+                                    <div class="col-md-6">
+                                      <label for="inputCognome" class="form-label">Cognome</label>
+                                      <input type="text" class="form-control" id="inputCognome">
+                                    </div>
+
+                                    <!--email-->
+
+                                    <div class="col-12">
+                                      <label for="inputEmail" class="form-label">Indirizzo email</label>
+                                      <input type="text" class="form-control" id="inputEmail">
+                                    </div>
+
+                                    <!--password-->
+
+                                    <div class="col-12">
+                                      <label for="inputPassword" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="inputPassword" placeholder="scegli una password sicura">
+                                    </div>
+
+                                    <!--indirizzo-->
+
+                                    <div class="col-md-6">
+                                      <label for="inputIndirizzo" class="form-label">Indirizzo</label>
+                                      <input type="text" class="form-control" id="inputIndirizzo">
+                                    </div>
+
+                                    <!--città-->
+
+                                    <div class="col-md-4">
+                                      <label for="inputcitta" class="form-label">Città</label>
+                                      <input type="text" class="form-control" id="inputcitta">
+                                    </div>
+
+
+                                    <!--stato-->
+                                    <div class="col-md-2">
+                                      <label for="inputStato" class="form-label">Stato</label>
+                                      <select id="inputStato" class="form-select">
+                                        <option selected>Scegli...</option>
+                                        <option>Italia</option>
+                                        <option>Spagna</option>
+                                        <option>Francia</option>
+                                        <option>Portogallo</option>
+                                      </select>
+                                    </div>
+
+                                    <!--CAP-->
+
+                                    <div class="col-md-6">
+                                        <label for="inputCap" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="inputCap">
+                                      </div>
+
+                                      <!--scegli file-->
+
+                                      <div class="col-md-6">
+                                        <label for="inputScegli" class="form-label">Indirizzo</label>
+                                        <input type="file" accept="image/*">
+                                      </div>
+
+                                      <!--seleziona per proseguire-->
+
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Seleziona per proseguire
+                                        </label>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="col-12">
+                                      <button type="submit" class="btn btn-primary">Salva</button>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-warning">Svuota</button>
+                                      </div>
+                                  </form>
+
                             </div>
-                          </div>
                         </div>
-                      </nav>
+
             </div>
         </main>
     </div>
