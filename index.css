@@ -13,3 +13,8 @@ aside{
 aside li{
     list-style: none;
 }
+main{
+    background-color: yellow;
+    color:black;
+    width:calc(100% - 130px);
+}
