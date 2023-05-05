@@ -14,8 +14,11 @@ aside li{
     list-style: none;
 }
 main{
-    background-color: yellow;
+    background-color: #1B72E8;
     color:black;
-    width:70vw;
-    height:100vh;
+    width: calc(100% - 130px);
+}
+.fa-plus{
+    border:1px solid white;
+
 }
