@@ -1,0 +1,15 @@
+
+.navbar{
+    background-color: #FFFFFF;
+}
+
+aside{
+    width:130px;
+    height:100vh;
+    background-color: #12283F;
+}
+
+
+aside li{
+    list-style: none;
+}
