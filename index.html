@@ -93,10 +93,10 @@
                             <i class="fa-solid fa-plus p-2 rounded-2" style="color: #ffffff;"></i>
                     </button>
 
-                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                             <div class="offcanvas-header">
                                 <h7 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Inserisci un nuovo studente</h7>
-                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
 
@@ -114,35 +114,49 @@
 
                                     <!--email-->
 
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                       <label for="inputEmail" class="form-label">Indirizzo email</label>
                                       <input type="text" class="form-control" id="inputEmail">
                                     </div>
 
                                     <!--password-->
 
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                       <label for="inputPassword" class="form-label">Password</label>
                                       <input type="password" class="form-control" id="inputPassword" placeholder="scegli una password sicura">
                                     </div>
 
-                                    <!--indirizzo-->
+                                    <!--indirizzo email-->
 
                                     <div class="col-md-6">
-                                      <label for="inputIndirizzo" class="form-label">Indirizzo</label>
-                                      <input type="text" class="form-control" id="inputIndirizzo">
+                                        <label for="inputIndirizzoemail" class="form-label">Indirizzo email</label>
+                                        <input type="text" class="form-control" id="inputIndirizzoemail">
+                                      </div>
+
+                                      <!--password indirizzo email-->
+
+                                      <div class="col-md-6">
+                                        <label for="inputPasswordindirizzoemail" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPasswordindirizzoemail" placeholder="scegli una password sicura">
+                                      </div>
+
+                                    <!--indirizzo-->
+
+                                    <div class="col-12">
+                                      <label for="inputindirizzo" class="form-label">Indirizzo</label>
+                                      <input type="text" class="form-control" id="inputindirizzo">
                                     </div>
 
                                     <!--città-->
 
-                                    <div class="col-md-4">
+                                    <div class="col-md-5">
                                       <label for="inputcitta" class="form-label">Città</label>
                                       <input type="text" class="form-control" id="inputcitta">
                                     </div>
 
 
                                     <!--stato-->
-                                    <div class="col-md-2">
+                                    <div class="col-md-4">
                                       <label for="inputStato" class="form-label">Stato</label>
                                       <select id="inputStato" class="form-select">
                                         <option selected>Scegli...</option>
@@ -155,21 +169,21 @@
 
                                     <!--CAP-->
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-2">
                                         <label for="inputCap" class="form-label">CAP</label>
                                         <input type="text" class="form-control" id="inputCap">
-                                      </div>
+                                    </div>
 
-                                      <!--scegli file-->
-
-                                      <div class="col-md-6">
-                                        <label for="inputScegli" class="form-label">Indirizzo</label>
-                                        <input type="file" accept="image/*">
-                                      </div>
-
-                                      <!--seleziona per proseguire-->
+                                    <!--scegli file-->
 
                                     <div class="col-12">
+                                        <label for="inputScegli" class="form-label"></label>
+                                        <input type="file" accept="image/*">
+                                    </div>
+
+                                    <!--seleziona per proseguire-->
+
+                                    <div class="col-md-12">
                                       <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="gridCheck">
                                         <label class="form-check-label" for="gridCheck">
@@ -179,10 +193,10 @@
                                     </div>
 
 
-                                    <div class="col-12">
+                                    <div class="col-6">
                                       <button type="submit" class="btn btn-primary">Salva</button>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-6">
                                         <button type="submit" class="btn btn-warning">Svuota</button>
                                       </div>
                                   </form>
