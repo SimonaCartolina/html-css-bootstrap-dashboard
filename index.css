@@ -16,5 +16,6 @@ aside li{
 main{
     background-color: yellow;
     color:black;
-    width:calc(100% - 130px);
+    width:70vw;
+    height:100vh;
 }
