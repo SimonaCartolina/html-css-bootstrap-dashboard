@@ -20,3 +20,18 @@ main{
 .fa-plus{
     border:1px solid white;
 }
+
+li{
+    list-style:none;
+}
+.piano-blaze{
+    background-color: #165BBA;
+    border-radius:30px;
+    font-size:0.85rem;
+
+}
+.head-part li{
+    background-color: #165BBA;
+    border-radius:30px;
+    font-size:0.85rem;
+}
