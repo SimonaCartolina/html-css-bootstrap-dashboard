@@ -4,18 +4,15 @@
 }
 
 aside{
-    width:130px;
+    width:100px;
     height:100vh;
+    background-image: url(../html-css-bootstrap-dashboard/img/sidebar-bg.png);
     background-color: #12283F;
 }
 
-
-aside li{
-    list-style: none;
-}
 main{
     background-color: #1B72E8;
-    width: calc(100% - 130px);
+    width: calc(100% - 100px);
 }
 .fa-plus{
     border:1px solid white;
@@ -35,3 +32,20 @@ li{
     border-radius:30px;
     font-size:0.85rem;
 }
+
+
+/*for desktop*/
+
+@media screen and (min-width:992px){
+    aside{
+        width:150px;
+        height:100vh;
+        background-color: #12283F;
+    }
+    
+    main{
+        background-color: #1B72E8;
+        width: calc(100% - 150px);
+    }
+}
+
