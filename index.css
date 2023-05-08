@@ -1,6 +1,10 @@
 
 .navbar{
     background-color: #ffffffa6;
+
+}
+.navbar div{
+    align-items: center;
 }
 
 aside{
@@ -20,14 +24,11 @@ main{
     width:100%;
     height:30%;
 }
-
+/*this is the container with all the cards*/
 .my-main-contents{
     height:70%;
     background-color: lightgray;
     overflow:auto;
-}
-.fa-plus{
-    border:1px solid white;
 }
 
 li{
@@ -46,6 +47,9 @@ li{
     border-radius:30px;
     font-size:0.85rem;
 }
+.card li{
+    font-size:0.90rem;
+}
 .card-header{
     font-size:1.5rem;
 }
@@ -53,6 +57,13 @@ th{
     font-size:0.90rem;
     font-weight:200;
 }
+
+/*this are all the <i>*/
+
+.fa-plus{
+    border:1px solid white;
+}
+
 .fa-code{
     background-color: #F26551;
     border-radius:50%;
@@ -80,8 +91,9 @@ th{
 .failed{
     background-color: #DC3545;
 }
-.card li{
-    font-size:0.90rem;
+
+.fa-bell{
+    font-size:1.2rem;
 }
 
 /*for desktop*/
