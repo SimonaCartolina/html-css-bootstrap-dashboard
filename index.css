@@ -53,6 +53,27 @@ th{
     font-size:0.90rem;
     font-weight:200;
 }
+.fa-code{
+    background-color: #F26551;
+    border-radius:50%;
+    padding:0.40rem;
+}
+.fa-pen{
+    border:2px solid #808080;
+    border-radius:5px;
+    padding:0.40rem;
+}
+.fa-trash{
+    border:2px solid #808080;
+    border-radius:5px;
+    padding:0.40rem;
+}
+.status{
+    background-color: rgb(54, 169, 54);
+    border-radius:15px;
+    padding:0.40rem;
+    font-size:0.80rem;
+}
 
 
 /*for desktop*/
