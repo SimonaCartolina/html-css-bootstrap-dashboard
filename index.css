@@ -80,6 +80,9 @@ th{
 .failed{
     background-color: #DC3545;
 }
+.card li{
+    font-size:0.90rem;
+}
 
 /*for desktop*/
 
