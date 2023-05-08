@@ -56,21 +56,21 @@
     </nav>
     </header>
 
-    <div class="my-container d-flex">
+    <div class="d-flex">
 
-        <aside>
+        <aside class="d-flex flex-column justify-content-between py-4">
 
-            <div class="my-container py-4">
-    
                     <ul>
-                        <li>
+                        <li class="my-2">
                             <i class="fa-solid fa-house fs-5" style="color: #ffffff;"></i>
                         </li>
-                        <li>
-                            ciao<i class="fa-sharp fa-solid fa-waveform-lines" style="color: #ffffff;"></i>
+
+                        <li class="my-2">
+                            <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
                         </li>
-                        <li>
-                            ciao<i class="fa-duotone fa-signal-bars" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff;"></i>
+
+                        <li class="my-2">
+                            <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
                         </li>
                     </ul>
         
@@ -80,18 +80,58 @@
                         </li>
                     </ul>
     
-                </div>
-    
-            </aside>
+        </aside>
     
         <main>
-            <div class="my-container text-white my-4 mx-4">
 
-                    <span class="mx-2 fw-bold">Nuovo Studente</span>
+            <div class="my-container text-white px-4">
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <!--head part with three main div, each of them has some margin x-->
+
+                <div class="head-part py-4 d-md-flex justify-content-md-between">
+
+
+
+                    <!--first div, it is gonna be on order-3 once we are on tablet-->
+
+                    <div class="d-flex col-sm-12 col-md-3 col-lg-3 order-sm-1 order-md-3 mb-4">
+
+                        <span class="mx-2 fw-bold">Nuovo Studente</span>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                             <i class="fa-solid fa-plus p-2 rounded-2" style="color: #ffffff;"></i>
-                    </button>
+                        </button>
+
+                    </div>
+
+
+
+                    <!--second div, it is gonna be on order-1 once we are on tablet-->
+
+                    <div class="order-sm-2 order-md-1 col-sm-12 col-md-5 col-lg-6">
+                        <div class="d-flex mb-2">
+                            <h2 class="fw-semibold">Boolean
+                                <span class="piano-blaze mx-2 mt-4 px-2 py-1 align-items-center">Piano Blaze</span>
+                            </h2>
+                        </div>
+    
+                        <ul class="d-flex flex-wrap">
+                            <li class="mx-1 px-2 align-items-center">3 app</li>
+                            <span class="mx-1 align-items-center">>></span>
+                            <li class="mx-1 px-2 align-items-center">+</li>
+                        </ul>
+                    </div>
+
+
+
+                    <!--third div, it is gonna be on order-2 once we are on tablet-->
+
+                    <div class="order-sm-3 order-md-2 col-sm-12 col-md-4 col-lg-3">
+                        <span class="mt-5">Studenti online negli ultimi 30 minuti</span>
+                        <h2 class="fw-semibold">125</h2>
+                    </div>
+
+                </div>
 
                         <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                             <div class="offcanvas-header">
@@ -203,30 +243,11 @@
 
                             </div>
                         </div>
+            </div>
 
-                        <div class="head-part mt-5">
-
-                            <div class="d-flex mb-2">
-                                <h2>Boolean
-                                    <span class="piano-blaze mx-2 mt-4 px-2 py-1 align-items-center">Piano Blaze</span>
-                                </h2>
-                            </div>
-
-                            <ul class="d-flex flex-wrap">
-                                <li class="mx-1 px-2 align-items-center">3 app</li>
-                                <span class="mx-1 align-items-center">>></span>
-                                <li class="mx-1 px-2 align-items-center">+</li>
-                            </ul>
-
-                            <p class="mt-5">Studenti online negli ultimi 30 minuti</p>
-                            <h2>125</h2>
-
-
-                        
-
-                        </div>
-
-
+            <div class="my-main-contents">
+                CIAO
+                    
             </div>
         </main>
     </div>

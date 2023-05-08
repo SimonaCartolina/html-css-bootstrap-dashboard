@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: #FFFFFF;
+    background-color: #ffffffa6;
 }
 
 aside{
@@ -11,8 +11,19 @@ aside{
 }
 
 main{
-    background-color: #1B72E8;
     width: calc(100% - 100px);
+    height:100vh;
+}
+/*this is the my-container of the kind of header with the three divs*/
+.my-container{
+    background-color: #1B72E8;
+    width:100%;
+}
+
+.my-main-contents{
+    background-color: lightgray;
+    height:100%;
+    overflow:auto;
 }
 .fa-plus{
     border:1px solid white;
@@ -25,7 +36,9 @@ li{
     background-color: #165BBA;
     border-radius:30px;
     font-size:0.85rem;
-
+}
+.head-part div{
+    align-items: baseline;
 }
 .head-part li{
     background-color: #165BBA;
@@ -46,6 +59,12 @@ li{
     main{
         background-color: #1B72E8;
         width: calc(100% - 150px);
+    }
+}
+
+@media screen and (min-width:768){
+    .head-part{
+        font-size:0.70rem;
     }
 }
 
