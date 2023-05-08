@@ -106,11 +106,11 @@ th{
     .my-container{
         background-color: #1B72E8;
         width:100%;
-        height:15%;
+        height:18%;
     }
     /*this is the container with all the cards*/
     .my-main-contents{
-        height:85%;
+        height:82%;
         background-color: lightgray;
         overflow:auto;
     }
