@@ -13,10 +13,6 @@ aside{
     background-image: url(../html-css-bootstrap-dashboard/img/sidebar-bg.png);
     background-color: #12283F;
 }
-.fa-magnifying-glass{
-    align-items: center;
-    padding:0.25rem;
-}
 
 main{
     width: calc(100% - 100px);
@@ -68,6 +64,11 @@ th{
     border:1px solid white;
 }
 
+.fa-magnifying-glass{
+    align-items: center;
+    padding:0.25rem;
+}
+
 .fa-code{
     background-color: #F26551;
     border-radius:50%;
@@ -113,8 +114,8 @@ th{
         background-color: lightgray;
         overflow:auto;
     }
-
 }
+
 /*for desktop*/
 
 @media screen and (min-width:992px){
